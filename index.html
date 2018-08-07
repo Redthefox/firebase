@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>The Spot</title>    
+    <link href="https://fonts.googleapis.com/css?family=Asset" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDdRQWoD4_eDuOTYpsejREO7tKyEets0bo",
+    authDomain: "fir-9bb81.firebaseapp.com",
+    databaseURL: "https://fir-9bb81.firebaseio.com",
+    projectId: "fir-9bb81",
+    storageBucket: "",
+    messagingSenderId: "946471086112"
+  };
+  firebase.initializeApp(config);
+</script>
+    <link rel="stylesheet" href="style.css" defer>
+    <script src="main.js" defer></script>
+</head> 
+
+<body>
+   <h1 class="title">The Spot</h1>
+    
+    <div id="notTitle">
+        <div class ="navBar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.asp">News</a></li>
+                <li><a href="contact.asp">Contact</a></li>
+                <li><a href="createBlog.html">About</a></li>
+            </ul>
+        </div>  
+        <div class="trend">    
+            <h4 id="user">Blog</h4>
+            <p id="blogex">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+      
+        <div class="userContainer">
+                <form action="">
+                    <input id="message" type="text" placeholder = "your message">
+                    <button id="submitButton">Submit</button>
+                </form>
+        </div> 
+    </div>
+    <div id="friends">
+        <h1>Friends</h1>
+    </div>                                
+</body>
+</html>
